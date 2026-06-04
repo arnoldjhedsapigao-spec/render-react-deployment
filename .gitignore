@@ -2,3 +2,7 @@ node_modules
 
 # Build outputs
 dist
+
+# environment variables
+.env
+.env.production
