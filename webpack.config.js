@@ -28,7 +28,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./public/index.html",
     }),
-    new Dotenv(),
+    new Dotenv({
+      systemvars: true, // Crucial: Tells the plugin to load Render's system variables
+    }),
     // other plugins...
   ],
   devServer: {
