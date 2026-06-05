@@ -29,7 +29,7 @@ module.exports = {
       template: "./public/index.html",
     }),
     new Dotenv({
-      systemvars: false, // Crucial: Tells the plugin to load Render's system variables
+      systemvars: true, // Crucial: Tells the plugin to load Render's system variables
     }),
     // other plugins...
   ],
