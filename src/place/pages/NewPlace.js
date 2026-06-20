@@ -6,7 +6,6 @@ import Button from "../../shared/components/FormElements/Button";
 import ErrorModal from "../../shared/components/UIElements/ErrorModal";
 import LoadingSpinner from "../../shared/components/UIElements/LoadingSpinner";
 import ImageUpload from "../../shared/components/FormElements/ImageUpload";
-
 import {
   VALIDATOR_REQUIRE,
   VALIDATOR_MINLENGTH,
@@ -46,7 +45,6 @@ const NewPlace = () => {
 
   const placeSubmitHandler = async (event) => {
     event.preventDefault();
-    console.log(formState.inputs); //send this to the backend
     try {
       const formData = new FormData();
       formData.append("title", formState.inputs.title.value);
@@ -62,7 +60,7 @@ const NewPlace = () => {
           Authorization: "Bearer " + auth.token,
         },
       );
-      //Redirect user to the next page
+
       history.push("/");
     } catch (error) {}
   };

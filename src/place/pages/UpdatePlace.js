@@ -10,7 +10,6 @@ import {
   VALIDATOR_REQUIRE,
   VALIDATOR_MINLENGTH,
 } from "../../shared/util/validators";
-
 import { useForm } from "../../shared/hooks/form-hook";
 import { useHttpClient } from "../../shared/hooks/http-hook";
 import { AuthContext } from "../../shared/context/auth-context";
@@ -90,16 +89,6 @@ const UpdatePlace = () => {
       </div>
     );
   }
-
-  /*if (!loadedPlaces && !error) {
-    return (
-      <div className="center">
-        <Card>
-          <h2>Could not find place!</h2>
-        </Card>
-      </div>
-    );
-  }*/
 
   return (
     <React.Fragment>

@@ -33,7 +33,6 @@ const PlaceItem = (props) => {
 
   const confirmDeleteHandler = async () => {
     setShowConfirmModal(false);
-    console.log("DELETING...");
     try {
       await sendRequest(
         `${process.env.REACT_APP_BACKEND_URL}/places/${props.id}`,
