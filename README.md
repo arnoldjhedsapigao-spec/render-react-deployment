@@ -78,11 +78,38 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ---
 
+### Environment Variables
+
+Create a `.env` file in the root directory and add the following:
+
+```env
+REACT_APP_BACKEND_URL=http://localhost:5000/api
+REACT_APP_ASSET_URL=http://localhost:5000
+```
+
+---
+
+## Screenshots
+
+### Home Page
+
+![Home](assets/images/screenshots/1. Home Page.png)
+![Sign Up](assets/images/screenshots/2. Sign Up Page.png)
+![Login](assets/images/screenshots/3. Login Page.png)
+![Add Place](assets/images/screenshots/4. Add Place Page.png)
+![View Place](assets/images/screenshots/5. View Place Page.png)
+![View on Map](assets/images/screenshots/6. View on Map Modal.png)
+![Edit Place](assets/images/screenshots/7. Edit Place Page.png)
+![Delete Place](assets/images/screenshots/8. Delete Place Modal.png)
+
+---
+
 ## 📂 Project Structure
 
 ```text
 ├── public/             # Static assets (css, js, html)
 ├── src/
+│   ├── assets/          # Global images
 │   ├── place/         # Page routes (Place)
 │   │   ├── components/         # Place UI components
 │   │   ├── pages/         # Page views (Place)
