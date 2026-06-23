@@ -94,13 +94,34 @@ REACT_APP_ASSET_URL=http://localhost:5000
 ### Home Page
 
 ![Home](src/assets/images/screenshots/home-page.png)
-![Sign Up](src/assets/images/screenshots/sign-up-page.png)
-![Login](src/assets/images/screenshots/login-page.png)
-![Add Place](src/assets/images/screenshots/add-place-page.png)
-![View Place](src/assets/images/screenshots/view-place-page.png)
-![View on Map](src/assets/images/screenshots/view-on-map-modal.png)
-![Edit Place](src/assets/images/screenshots/edit-place-page.png)
-![Delete Place](src/assets/images/screenshots/delete-place-modal.png)
+
+### Sign Up Page
+
+![Sign Up Page](src/assets/images/screenshots/sign-up-page.png)
+
+### Login Page
+
+![Login Page](src/assets/images/screenshots/login-page.png)
+
+### Add Place Page
+
+![Add Place Page](src/assets/images/screenshots/add-place-page.png)
+
+### View Place Page
+
+![View Place Page](src/assets/images/screenshots/view-place-page.png)
+
+### View on Map Modal
+
+![View on Map Modal](src/assets/images/screenshots/view-on-map-modal.png)
+
+### Edit Place Page
+
+![Edit Place Page](src/assets/images/screenshots/edit-place-page.png)
+
+### Delete Place Modal
+
+![Delete Place Modal](src/assets/images/screenshots/delete-place-modal.png)
 
 ---
 
